@@ -1,0 +1,11 @@
+#=================dir=============
+/.idea
+/.fleet
+/.code
+/report
+/logs
+
+
+#========file==================
+failures
+geckodriver.log

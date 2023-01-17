@@ -18,7 +18,7 @@ def drivers():
     global driver
     if driver is None:
         driver = webdriver.Chrome()
-        driver.get('D:/data/ZDH/baidu.html')
+        driver.get('./baidu.com')
     yield driver
     driver.quit()
 
